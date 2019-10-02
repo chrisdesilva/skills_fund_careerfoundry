@@ -77,7 +77,7 @@ export const faq = { // faq section
     multipleLoanLengths: true, // true if 36 and 60 month options are both available
     multipleLoanTypes: false, // true if both IR and IO are available
     multiPrograms: true, // only true if there are multiple programs
-    onlinePrograms: false, // true if at least one program is remote/online
+    onlinePrograms: true, // true if at least one program is remote/online
     schoolHQState: 'MI',
     origFee: 0.04,
 
