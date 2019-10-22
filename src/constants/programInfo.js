@@ -54,7 +54,7 @@ export const schoolInfo = { // term details section
             LoanExampleAmtPlusOFee: '$7,176'
         },
         { // for multiple examples of immmediate repayment, add items to immediateRepayment array
-            programName: 'the Web Development programs',
+            programName: 'the Web Development program',
             APR36: '11.69%',
             financeCharge36: '$952.04',
             FullMonthlyPayment36: '$165.33',
