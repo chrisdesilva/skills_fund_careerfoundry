@@ -42,7 +42,7 @@ export const schoolInfo = { // term details section
             LoanExampleAmtPlusOFee: '$10,296'
         },
         { // for multiple examples of immmediate repayment, add items to immediateRepayment array
-            programName: 'the UX Design Certification program',
+            programName: 'the UX Design Certification and UI Design programs',
             APR36: '11.69%',
             financeCharge36: '$1,313.81',
             FullMonthlyPayment36: '$228.16',
@@ -54,7 +54,7 @@ export const schoolInfo = { // term details section
             LoanExampleAmtPlusOFee: '$7,176'
         },
         { // for multiple examples of immmediate repayment, add items to immediateRepayment array
-            programName: 'the UI Design and Web Development programs',
+            programName: 'the Web Development programs',
             APR36: '11.69%',
             financeCharge36: '$952.04',
             FullMonthlyPayment36: '$165.33',
@@ -99,7 +99,7 @@ export const faq = { // faq section
             colAmount: "$6,000"
         },
         {
-            programName: "CareerFoundry's UX Design Certification program",
+            programName: "CareerFoundry's UX Design Certification and UI Design programs",
             maxAmount: "$6,900",
             col: false,
             colAmount: "$6,000"
@@ -109,13 +109,7 @@ export const faq = { // faq section
             maxAmount: "$5,500",
             col: false,
             colAmount: "$6,000"
-        },
-        {
-            programName: "CareerFoundry's UI Design program",
-            maxAmount: "$5,000",
-            col: false,
-            colAmount: "$6,000"
-        },
+        }
     ]
 }
 
@@ -272,7 +266,7 @@ export const programLoanInfo = [ // update with program names and corresponding 
         name: "UI Design",
         url: "https://sf.privateloan.studentloan.org/external/LoanApplication.do?lenderCode=SKCFUID18",
         loanInfo: { // match loanInfo in first metro below
-            maxLoanAmt: 5000,
+            maxLoanAmt: 6900,
             loanTerm36: true,
             loanTerm60: true,
             '0': null,
@@ -289,7 +283,7 @@ export const programLoanInfo = [ // update with program names and corresponding 
             {
               location: "Metro A",
               loanInfo: { // match loanInfo to Program 3 loanInfo above
-                maxLoanAmt: 5000,
+                maxLoanAmt: 6900,
                 loanTerm36: true,
                 loanTerm60: true,
                 '0': null,
@@ -304,7 +298,7 @@ export const programLoanInfo = [ // update with program names and corresponding 
 ]
 
 // ***** BEGIN LOAN CALC TEXT INFO *****
-export const programMaxText = "Choose the loan amount that works best for you. Borrow up to $9,900 for UX Design PLUS tuition, up to $6,900 for UX Design Certification tuition, up to $5,500 for Web Development tuition, and up to $5,000 for UI Design tuition."
+export const programMaxText = "Choose the loan amount that works best for you. Borrow up to $9,900 for UX Design PLUS tuition, up to $6,900 for UX Design Certification or UI Design tuition, or up to $5,500 for Web Development tuition."
 
 export const paymentTable = {
     headers: ["Program", "Tuition", "Cost of Living", "Max Total"],
