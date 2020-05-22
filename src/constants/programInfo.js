@@ -117,6 +117,18 @@ export const faq = {
       col: false,
       colAmount: "$6,000",
     },
+    {
+      programName: "CareerFoundry's Advanced UX Program",
+      maxAmount: "$8,500",
+      col: false,
+      colAmount: "$6,000",
+    },
+    {
+      programName: "CareerFoundry's Data Analytics Program",
+      maxAmount: "$6,900",
+      col: false,
+      colAmount: "$6,000",
+    },
   ],
 }
 
@@ -298,6 +310,86 @@ export const programLoanInfo = [
   {
     name: "UI Design Program",
     url: "https://my.skills.fund/application?lenderCode=SKCFUID18",
+    loanInfo: {
+      // match loanInfo in first metro below
+      maxLoanAmt: 6900,
+      loanTerm36: true,
+      loanTerm60: true,
+      "Interest Only": {
+        k: 5,
+      },
+      "Immediate Repayment": {
+        apr36: 12.36,
+        apr60: 13.14,
+      },
+    },
+    defaultLoanType: "Immediate Repayment", // leave at 0 for interest-only, set to 1 for immediate repayment
+    showMetros: false,
+    showLoanTypes: false,
+    loanTypes: ["Immediate Repayment"],
+    locations: ["Metro A", "Metro B", "Metro C"],
+    metros: [
+      {
+        location: "Metro A",
+        loanInfo: {
+          // match loanInfo to Program 3 loanInfo above
+          maxLoanAmt: 6900,
+          loanTerm36: true,
+          loanTerm60: true,
+          "Interest Only": {
+            k: 5,
+          },
+          "Immediate Repayment": {
+            apr36: 12.36,
+            apr60: 13.14,
+          },
+        },
+      },
+    ],
+  },
+  {
+    name: "Advanced UX Program",
+    url: "https://my.skills.fund/application?lenderCode=SFCFAUP20",
+    loanInfo: {
+      // match loanInfo in first metro below
+      maxLoanAmt: 8500,
+      loanTerm36: true,
+      loanTerm60: true,
+      "Interest Only": {
+        k: 5,
+      },
+      "Immediate Repayment": {
+        apr36: 12.36,
+        apr60: 13.14,
+      },
+    },
+    defaultLoanType: "Immediate Repayment", // leave at 0 for interest-only, set to 1 for immediate repayment
+    showMetros: false,
+    showLoanTypes: false,
+    loanTypes: ["Immediate Repayment"],
+    locations: ["Metro A", "Metro B", "Metro C"],
+    metros: [
+      {
+        location: "Metro A",
+        loanInfo: {
+          // match loanInfo to Program 3 loanInfo above
+          maxLoanAmt: 8500,
+          loanTerm36: true,
+          loanTerm60: true,
+          "Interest Only": {
+            k: 5,
+          },
+          "Immediate Repayment": {
+            apr36: 12.36,
+            apr60: 13.14,
+          },
+        },
+      },
+    ],
+  },
+  {
+    name: "Data Analytics Program",
+    url: "https://my.skills.fund/application?lenderCode=SFCFDAP20",
     loanInfo: {
       // match loanInfo in first metro below
       maxLoanAmt: 6900,
