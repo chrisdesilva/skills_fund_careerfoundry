@@ -105,31 +105,31 @@ export const previewText = {
   // subheadline:
   //   "We offer a straightforward loan so you can focus on your program and transform your future.",
   cards: [
+    {
+      heading: "Deferred Repayment",
+      body: "Make no payments while you study and for three months after.",
+    },
+    {
+      heading: "Interest Only",
+      body:
+        "Make low interest-only payments while you study and for three months after completing your program.",
+    },
+    {
+      heading: "Immediate Repayment",
+      body: "Start paying your loan back one month after your program begins.",
+    },
     // {
-    //   heading: "Deferred Repayment",
-    //   body: "Make no payments while you study and for three months after.",
-    // },
-    // {
-    //   heading: "Interest Only",
+    //   heading: "36-Month Loan",
+    //   // body:
+    //   //   "Pay off your loan faster. Start paying your loan back one month after your program begins, and make 36 monthly payments until your loan is repaid.",
     //   body:
-    //     "Make low interest-only payments while you study and for three months after completing your program.",
+    //     "Start paying your loan back one month after your program begins, and make 36 monthly payments until your loan is repaid.",
     // },
     // {
-    //   heading: "Immediate Repayment",
-    //   body: "Start paying your loan back one month after your program begins.",
+    //   heading: "60-Month Loan",
+    //   body:
+    //     "Make smaller monthly payments. Start paying your loan back one month after your program begins, and make 60 monthly payments until your loan is repaid.",
     // },
-    {
-      heading: "36-Month Loan",
-      // body:
-      //   "Pay off your loan faster. Start paying your loan back one month after your program begins, and make 36 monthly payments until your loan is repaid.",
-      body:
-        "Start paying your loan back one month after your program begins, and make 36 monthly payments until your loan is repaid.",
-    },
-    {
-      heading: "60-Month Loan",
-      body:
-        "Make smaller monthly payments. Start paying your loan back one month after your program begins, and make 60 monthly payments until your loan is repaid.",
-    },
   ],
 }
 
@@ -138,10 +138,10 @@ export const faq = {
   costOfLiving: false, // true if at least one program has cost of living included
   costOfLivingPrograms: "", // leave as empty string is cost of living availability is the same across all programs
   multCostOfLivingPrograms: false, // true if costOfLivingPrograms string has more than one program
-  interestOnly: false, // true if interest-only payments are an option
+  interestOnly: true, // true if interest-only payments are an option
   immediateRepayment: true, // true if immediate repayment is an option
   multipleLoanLengths: true, // true if 36 and 60 month options are both available
-  multipleLoanTypes: false, // true if both IR and IO are available
+  multipleLoanTypes: true, // true if both IR and IO are available
   multiPrograms: true, // only true if there are multiple programs
   onlinePrograms: true, // true if at least one program is remote/online
   schoolHQState: "MI",
