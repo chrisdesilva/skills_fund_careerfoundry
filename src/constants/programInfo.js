@@ -158,12 +158,12 @@ export const faq = {
 
   // max loan amounts by program for faq1
   loanRange: [
-    {
-      programName: "CareerFoundry's UX Design PLUS Program",
-      maxAmount: "$9,900",
-      col: false,
-      colAmount: "$6,000",
-    },
+    // {
+    //   programName: "CareerFoundry's UX Design PLUS Program",
+    //   maxAmount: "$9,900",
+    //   col: false,
+    //   colAmount: "$6,000",
+    // },
     {
       programName:
         "CareerFoundry's UX Design Certification Program and UI Design Program",
@@ -246,47 +246,47 @@ export const moreThanSixPrograms = false // set to true if there are 7 or more p
 
 export const programLoanInfo = [
   // update with program names and corresponding loan URLs with market segment code from Master Loan Parameters
-  {
-    name: "UX Design PLUS Program",
-    url: "https://my.skills.fund/application?lenderCode=SKCFUXP18",
-    loanInfo: {
-      // match loanInfo in first metro below
-      maxLoanAmt: 9900,
-      loanTerm36: true,
-      loanTerm60: true,
-      "Interest Only": {
-        k: 5,
-      },
-      "Immediate Repayment": {
-        apr36: 12.36,
-        apr60: 13.14,
-      },
-    },
-    defaultLoanType: "Immediate Repayment", // leave at 0 for interest-only, set to 1 for immediate repayment
-    showMetros: false, // true if there are multiple metros with different tuition amounts for the same program
-    showLoanTypes: false, // true if both IR and IO are available
-    loanTypes: ["Immediate Repayment"],
-    locations: ["Metro 1", "Metro 2", "Metro 3"],
-    metros: [
-      // list in same order as locations array above
-      {
-        location: "Metro 1",
-        loanInfo: {
-          // // match loanInfo to Program 1 above
-          maxLoanAmt: 9900,
-          loanTerm36: true,
-          loanTerm60: true,
-          "Interest Only": {
-            k: 5,
-          },
-          "Immediate Repayment": {
-            apr36: 12.36,
-            apr60: 13.14,
-          },
-        },
-      },
-    ],
-  },
+  // {
+  //   name: "UX Design PLUS Program",
+  //   url: "https://my.skills.fund/application?lenderCode=SKCFUXP18",
+  //   loanInfo: {
+  //     // match loanInfo in first metro below
+  //     maxLoanAmt: 9900,
+  //     loanTerm36: true,
+  //     loanTerm60: true,
+  //     "Interest Only": {
+  //       k: 5,
+  //     },
+  //     "Immediate Repayment": {
+  //       apr36: 12.36,
+  //       apr60: 13.14,
+  //     },
+  //   },
+  //   defaultLoanType: "Immediate Repayment", // leave at 0 for interest-only, set to 1 for immediate repayment
+  //   showMetros: false, // true if there are multiple metros with different tuition amounts for the same program
+  //   showLoanTypes: false, // true if both IR and IO are available
+  //   loanTypes: ["Immediate Repayment"],
+  //   locations: ["Metro 1", "Metro 2", "Metro 3"],
+  //   metros: [
+  //     // list in same order as locations array above
+  //     {
+  //       location: "Metro 1",
+  //       loanInfo: {
+  //         // // match loanInfo to Program 1 above
+  //         maxLoanAmt: 9900,
+  //         loanTerm36: true,
+  //         loanTerm60: true,
+  //         "Interest Only": {
+  //           k: 5,
+  //         },
+  //         "Immediate Repayment": {
+  //           apr36: 12.36,
+  //           apr60: 13.14,
+  //         },
+  //       },
+  //     },
+  //   ],
+  // },
   {
     name: "UX Design Program",
     url: "https://my.skills.fund/application?lenderCode=SKCFUXC18",
